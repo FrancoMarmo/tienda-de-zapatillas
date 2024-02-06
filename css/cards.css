@@ -1,0 +1,56 @@
+@import url(./style.css);
+
+#productos-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: auto;
+}
+
+.tarjeta-producto{
+    max-width: 300px;
+    background-color: #acacac;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+    text-align: center;
+    transition: 200ms;
+}
+
+.tarjeta-producto:hover{
+    translate: 0 -10px;
+    box-shadow: 0px 10px 4px rgba(0,0,0,0.2);
+}
+
+.tarjeta-producto img{
+    width: 100%;
+    height: auto;
+}
+
+/* .card-content{
+    padding: 16px;
+} */
+
+.tarjeta-producto h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: red;
+}
+
+.tarjeta-producto p{
+    color: #ff0505;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+/* .card-content .btn-shop{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+} */

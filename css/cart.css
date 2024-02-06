@@ -1,0 +1,20 @@
+#productos-caontainer{
+    width: 500px;
+    margin: auto;
+}
+.tarjeta-producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 450px;
+}
+
+
+#totales, #carrito-vacio{
+    text-align: center;
+}
+
+
+
